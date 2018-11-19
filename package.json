@@ -1,13 +1,13 @@
 {
   "name": "staryi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "\"一个基于有道翻译的命令行翻译工具\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "staryi": "bin/index.js"
+    "staryi": "bin/index"
   },
   "repository": {
     "type": "git",

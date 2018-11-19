@@ -1,10 +1,11 @@
-#!usr/bin/env node
+#!/usr/bin/env node
+
 const program = require("commander");
 const request = require("request");
 const chalk = require("chalk");
 
 program
-  .version("1.0.1")
+  .version(require('../package.json').version)
   .usage("<keywords>")
   .option("-f, --full", "Full output without any style")
   .parse(process.argv);
