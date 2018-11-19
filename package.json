@@ -1,0 +1,27 @@
+{
+  "name": "staryi",
+  "version": "1.0.0",
+  "description": "\"一个基于有道翻译的命令行翻译工具\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "staryi": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summerstarlee/staryi.git"
+  },
+  "keywords": [
+    "翻译",
+    "youdao",
+    "translate"
+  ],
+  "author": "summerstarlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/summerstarlee/staryi/issues"
+  },
+  "homepage": "https://github.com/summerstarlee/staryi#readme"
+}
