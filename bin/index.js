@@ -4,7 +4,7 @@ const request = require("request");
 const chalk = require("chalk");
 
 program
-  .version("0.0.1")
+  .version("1.0.1")
   .usage("<keywords>")
   .option("-f, --full", "Full output without any style")
   .parse(process.argv);
