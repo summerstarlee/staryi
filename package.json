@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/summerstarlee/staryi/issues"
   },
-  "homepage": "https://github.com/summerstarlee/staryi#readme"
+  "homepage": "https://github.com/summerstarlee/staryi#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "request": "^2.88.0"
+  }
 }
